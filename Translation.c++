@@ -13,21 +13,21 @@ DNAbasemRNAbase (char dna)
 
     return 'U';
 
-  else if (toupper (dna) == 'T')    //djfklsdjfkdsjlf
+  else if (toupper (dna) == 'T')    //
 
     return 'A';
 
-  else if (toupper (dna) == 'C')   //jfkdsjkdsjflks
+  else if (toupper (dna) == 'C')   //
 
     return 'G';
 
-  else if (toupper (dna) == 'G')     //dsjfkdlsjfsk
+  else if (toupper (dna) == 'G')     //
 
-    return 'C';    //dfsksjlkfjsl
+    return 'C';    //
 
   else
 
-    return ' ';       //djsfklsdjfklds
+    return ' ';       //
 
 }
 
@@ -38,10 +38,10 @@ DNAmRNA (string input)
 {
 
 
-  string output = "";  //sdjfksljfksdl
+  string output = "";  //
 
 
-  for (int q = 0; q < input.size (); ++q)    //dksjfldks
+  for (int q = 0; q < input.size (); ++q)    //
 
     {
 
@@ -57,13 +57,13 @@ DNAmRNA (string input)
 
 
 string
-dictionary_read (string codon, ifstream & dict)   //fdjskfjsldjl
+dictionary_read (string codon, ifstream & dict)   //
 {
 
   string key, value;
 
 
-  dict.clear ();   //dsjfksljfd
+  dict.clear ();   //
 
 
   dict.seekg (0);
@@ -90,7 +90,7 @@ main ()
 
   ifstream dnaFin ("dna2b.txt");
 
-  ifstream dicFin ("codons.tsv");   //sdjfksjlfkds
+  ifstream dicFin ("codons.tsv");   
 
   string strand;
 
@@ -106,7 +106,7 @@ main ()
     }
 
 
-  while (getline (dnaFin, strand))     //dsjfksldjfkdlsj
+  while (getline (dnaFin, strand))     
 
     {
 
